@@ -1,0 +1,46 @@
+#!/bin/bash
+# BorgBackup BTRFS Backup Script V1.0 Config File
+#Passphrase of your borg repositorty
+BORG_PASSPHRASE=""
+
+#Location of your borg binary
+BORGLOCATION=borg
+
+#Borg compression to use
+COMPRESSION=lz4
+
+#Path to your Borg Repository (ssh access or local directory)
+REPOSITORY=user@example.com:/example/path
+
+#Mountpath of btrfs filessystem
+MOUNTPATH=
+
+#Hourly backups to keep
+KEEPHOURS=0
+
+#Daily backups to keep
+KEEPDAYS=0
+
+#Weekly backups to keep
+KEEPWEEKS=0
+
+#Monthly backups to keep
+KEEPMONTHS=0
+
+#Number of last backups that should always be kept
+KEEPLAST=10000
+
+#Sender mail address
+MAILFROM=
+
+#Recipient mail address
+MAILTO=
+
+#SMTP Server
+MAILHOST=
+
+#SMTP Username
+MAILUSER=
+
+#SMTP Password
+MAILPASSWORD=
